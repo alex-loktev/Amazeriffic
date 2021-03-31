@@ -6,6 +6,7 @@ header, main, footer {
 header h1 {
     float: left;
     width: 570px;
+    font-size: 45px;
 }
 
 header nav {
@@ -33,10 +34,16 @@ img {
 
 header {
     background: white;
+    padding-bottom: 20px;
 }
 
 main {
     background: white;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding-top: 20px;
 }
 
 header .container, main .container, footer .container {
@@ -56,4 +63,26 @@ div.sitemap {
 
 h1, h2, h3, h4 {
     font-family: "Ubuntu", sans-serif;
+}
+
+main h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
