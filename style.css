@@ -1,9 +1,34 @@
 header, main, footer {
     min-width: 855px;
+    overflow: auto;
+}
+
+header h1 {
+    float: left;
+    width: 570px;
+}
+
+header nav {
+    float: right;
+    width: 285px;
 }
 
 body {
     background: #f9e933;
+}
+
+div.img {
+    float: right;
+    width: 285px;
+}
+
+img {
+    width: 100%;
+}
+
+.lorem {
+    float: left;
+    width: 570px;
 }
 
 header {
@@ -17,4 +42,14 @@ main {
 header .container, main .container, footer .container {
     max-width: 855px;
     margin: auto;
+}
+
+div.contact {
+    float: left;
+    width: 570px;
+}
+
+div.sitemap {
+    float: right;
+    width: 285px;
 }
