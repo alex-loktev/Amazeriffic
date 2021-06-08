@@ -1,0 +1,123 @@
+/* *{
+  padding: 10px;
+} */
+body {
+  background: #f9e933;
+  width: 855px;
+  margin: auto;
+  font-size: 100%;
+}
+header,
+main,
+footer {
+  min-width: 855px;
+  padding: 10px;
+}
+header .container,
+main .container,
+footer .container {
+  width: 855px;
+  margin: auto;
+}
+header {
+  background: white;
+}
+main {
+  background: white;
+}
+main img {
+  width: 100px;
+}
+
+header {
+  background: white;
+  overflow: hidden;
+}
+header h1,
+h2,
+p,
+h3 {
+  float: left;
+  width: 570px;
+}
+header nav,
+header img {
+  float: right;
+  width: 285px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.sitemap ul{
+  float: right;
+  width: 285px;
+}
+
+/* Практика 4 */
+.tabs a span {
+  display: inline-block;
+  border-radius: 5px 5px 0 0;
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  background: #ddd;
+  padding: 5px;
+}
+.tabs a span.active {
+  background: #eee;
+}
+
+.tabAddContent{
+  
+  padding: 20px 0 10px 10px;
+  /* background-color: rgb(66, 221, 79); */
+}
+.tabAddContent input{
+  margin-right: 10px;
+  width: 200px;
+}
+.tabAddContent button{
+  width: 100px;
+}
+
+/* Практика 5 */
+
+main .content ul{
+  padding: 5px;
+}
+main .content ul li{
+  color: chocolate;
+  position: relative;
+  padding-left: 20px;
+}
+main .content ul li::before{
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(148, 38, 38);
+
+}
+main .content .tagsH4{
+
+  width: 90%;
+  /* background-color: rgb(243, 183, 183); */
+  text-transform: uppercase;
+}
+
+.content p{
+  float: none;
+}
