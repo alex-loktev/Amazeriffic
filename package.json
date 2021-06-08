@@ -8,15 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/what-IsLove/Amazeriffic.git"
+    "url": "git+https://github.com/alex-loktev/Amazeriffic.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/what-IsLove/Amazeriffic/issues"
+    "url": "https://github.com/alex-loktev/Amazeriffic/issues"
   },
-  "homepage": "https://github.com/what-IsLove/Amazeriffic#readme",
+  "homepage": "https://github.com/alex-loktev/Amazeriffic#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
   }
 }
